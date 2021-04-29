@@ -8,9 +8,11 @@
         background-image: url("https://populous.com/wp-content/uploads/2018/01/Tottenham-hotspur-stadium-hero-1504x846.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
+        background-size: cover;
       }
       table{
         border-collapse: collapse;
+        width: 67%;
 
       }
 
@@ -28,10 +30,16 @@
 
         .ms{
 
-          padding-right: 16%;
+          vertical-align: middle;
           padding-top: 1.5%;
           padding-bottom:1.5%;
           color: white;
+        }
+
+        .vs{
+          padding-left: 4.5%;
+          padding-right: 6%;
+          vertical-align: 20%;
         }
 
         .fh{
@@ -46,10 +54,17 @@
       }
 
         .AF{
-
-          padding-right: 16%;
+          padding-left: ;
           background-color: #2557F8;
           color: white;
+          padding-right: ;
+
+        }
+
+        .AF_logo{
+          padding-right: 4%;
+          padding-left: 3%;
+          vertical-align: middle;
         }
 
         .sr{
@@ -68,10 +83,17 @@
         }
 
         .AM{
-          text-align: left;
+
           padding-left: 3%;
           background-color: #FE4134;
           color: white;
+          vertical-align: center;
+        }
+
+        .AM_logo{
+          padding-left: 30%;
+
+
         }
 
         .gray{
@@ -85,14 +107,17 @@
         .gray, .black{
           color: white;
           height: 40px;
+          text-align: center;
+        }
+
+        .sub{
+          font-size: 75%;
         }
 
         p{
           color: white;
         }
-        .vs{
 
-        }
 
 
     </style>
@@ -102,60 +127,57 @@
 
   <body>
     <div class="table">
-    <table style="width:67%;">
+    <table>
       <tr class="top-row">
-        <th class="ms" >MATCH STATS</th>
-        <th class="fh" colspan="3">FIRST HALF</th>
+        <td class="ms" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pRimhwCDdgiul_QngErrWSMbmYZrdM89CQ&usqp=CAU" alt="visual sound" width=7%; class="vs">MATCH STATS</th>
+        <td class="fh" colspan="3">FIRST HALF</th>
       </tr>
       <tr class="second-row">
-        <th class="AF">AVONDALE <b>FC</b></th>
+        <td class="AF" width="43%"><img src="https://i141.photobucket.com/albums/r44/CountArach/Avondale%20FC.png" alt="Avondale Fc logo" width=10%; class="AF_logo">
+        AVONDALE <b>FC</b></td>
         <th class="sl" width="6%">3</th>
         <th class="sr" width="6%">0</th>
-        <th class="AM">ALTONA <b>MAGIC</b></th>
+        <td class="AM">ALTONA <b>MAGIC</b><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb7Vz9ImO5rB6CHB1TpvAoIp125ZmsnhR2A&usqp=CAU" width=10%; class="AM_logo"></td>
       </tr>
       <tr class="gray">
         <th>13</th>
-        <th colspan="2">Total Shots</th>
+        <td colspan="2" class="sub">Total Shots</td>
         <th>6</th>
       </tr>
       <tr class="black">
         <th>8</th>
-        <th colspan="2">Shots on Target</th>
+        <td colspan="2" class="sub">Shots on Target</td>
         <th>2</th>
       </tr>
       <tr class="gray">
         <th>5</th>
-        <th colspan="2">Corners</th>
+        <td colspan="2" class="sub">Corners</td>
         <th>2</th>
       </tr>
       <tr class="black">
         <th>8</th>
-        <th colspan="2">Fouls</th>
+        <td colspan="2" class="sub">Fouls</td>
         <th>8</th>
       </tr>
       <tr class="gray">
         <th>2</th>
-        <th colspan="2">Yellow Cards</th>
+        <td colspan="2" class="sub">Yellow Cards</td>
         <th>5</th>
       </tr>
       <tr class="black">
         <th>0</th>
-        <th colspan="2">Red Cards</th>
+        <td colspan="2" class="sub">Red Cards</td>
         <th>1</th>
       </tr>
       <tr class="gray">
         <th>1</th>
-        <th colspan="2">Offsides</th>
+        <td colspan="2" class="sub">Offsides</td>
         <th>1</th>
       </tr>
     </table>
     </div>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pRimhwCDdgiul_QngErrWSMbmYZrdM89CQ&usqp=CAU" alt="music soundwave" width=30px class="vs"
-    style="position:absolute; top:20.8%; left:26.5%;">
-    <img src="https://i141.photobucket.com/albums/r44/CountArach/Avondale%20FC.png" alt="Avondale Fc logo" width="2%"
-     style="position: absolute; right: 71.1%; top: 26%;">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb7Vz9ImO5rB6CHB1TpvAoIp125ZmsnhR2A&usqp=CAU" alt="Altona Magic logo"
-     width="2.2%" style="position:absolute; right: 26%; top: 25.8%">
+
+
 
   </body>
 
